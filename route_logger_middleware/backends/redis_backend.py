@@ -9,7 +9,7 @@ except ImportError:
     aioredis = None
 
 
-class LoggerQueueBackend(QueueBackend):
+class RedisBackend(QueueBackend):
     def __init__(self, redis_uri: str, db: int):
         self.redis_conn = aioredis.from_url(redis_uri, db=db)
 

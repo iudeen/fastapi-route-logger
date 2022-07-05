@@ -1,0 +1,6 @@
+fastapi~=0.78.0
+setuptools~=61.2.0
+mqttools~=0.50.0
+aiokafka~=0.7.2
+aioredis~=2.0.1
+starlette~=0.19.1
